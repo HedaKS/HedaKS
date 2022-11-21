@@ -1,0 +1,578 @@
+
+*
+{
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+body
+{
+    background-color: white;
+}
+
+header
+{
+    width: 100%;
+    height: auto;
+    background-color: #101010;
+    border-bottom: 5px solid #000000;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#imgtoplogo
+{
+    width: 80%;
+    height: 80%;
+    margin: 15px;
+}
+
+#traitheader
+{
+    width: 1px;
+    height: 120px;
+    background-color: #787878;;
+}
+
+#navbar
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@font-face {
+    font-family: KanitMediumItalic;
+    src: url(font/Kanit/Kanit-MediumItalic.ttf);
+}
+
+#divaccueil
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 10%;
+    height: 50px;
+    color: white;
+    background-color: #2B2B2B;
+    border-radius: 10px;
+    
+}
+
+#divaccueil:hover
+{
+
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+.classaccueil
+{
+    font-family: KanitMediumItalic;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#divnosproduit
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 13%;
+    height: 50px;
+    background-color: #2B2B2B;
+    color: white;
+    border-radius: 10px;
+}
+
+#divnosproduit:hover
+{
+
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+.classnosproduit
+{
+    font-family: KanitMediumItalic;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#divnoustrouver
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 15%;
+    height: 50px;
+    background-color: #2B2B2B;
+    color: white;
+    border-radius: 10px;
+}
+
+#divnoustrouver:hover
+{
+
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+.classnoustrouver
+{
+    font-family: KanitMediumItalic;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#divnouscontacter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 16%;
+    height: 50px;
+    background-color: #2B2B2B;
+    color: white;
+    border-radius: 10px;
+}
+
+#divnouscontacter:hover
+{
+
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+.classnouscontacter
+{
+    font-family: KanitMediumItalic;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+section
+{
+    width: auto;
+    height: auto;
+}
+
+#article1
+{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+#imgarticle1
+{
+    width: 100%;
+    height: auto;
+}
+
+
+#article2
+{
+    width: 100%;
+    height: auto;
+    background-color: #B5B5B5;
+}
+
+#divdecouvrir
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    color: #000000;
+}
+
+.classdecouvrir
+{
+    font-family: KanitMediumItalic;
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#divproduits
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #D9D9D9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#produitsleft
+{
+    padding-bottom: 8%;
+}
+
+#produitsleft:hover
+{
+
+    opacity: 0.4;
+    transition: 0.2s ease-in-out;
+}
+
+#produit1
+{
+    text-align: center;
+}
+
+#imgproduit1
+{
+    padding-bottom: 40px;
+}
+
+.blocopacity
+{
+    width: auto;
+    height: 450px;
+    background-color: #000000;
+}
+
+#imgproduit1:hover
+{
+    opacity: 0.4;
+    transition: 0.2s ease-in-out;
+}
+
+.nomproduit1
+{
+    font-family: KanitMediumItalic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+@font-face {
+    font-family: KanitItalic;
+    src: url(font/Kanit/Kanit-Italic.ttf);
+}
+
+.descproduit1
+{
+    font-family: KanitItalic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#produit2
+{
+    text-align: center;
+}
+
+#imgproduit2
+{
+    padding-bottom: 40px;
+}
+
+#imgproduit2:hover
+{
+    opacity: 0.4;
+    transition: 0.2s ease-in-out;
+}
+
+.nomproduit2
+{
+    font-family: KanitMediumItalic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.descproduit2
+{
+    font-family: KanitItalic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#produit3
+{
+    text-align: center;
+}
+
+#imgproduit3
+{
+    padding-bottom: 40px;
+}
+
+#imgproduit3:hover
+{
+    opacity: 0.4;
+    transition: 0.2s ease-in-out;
+}
+
+.nomproduit3
+{
+    font-family: KanitMediumItalic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.descproduit3
+{
+    font-family: KanitItalic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#produitsright
+{
+    padding-bottom: 8%;
+}
+
+#produitsright:hover
+{
+
+    opacity: 0.4;
+    transition: 0.2s ease-in-out;
+}
+
+@font-face {
+    font-family: KanitMedium;
+    src: url(font/Kanit/Kanit-Light.ttf);
+}
+
+#divfondvoirplus
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#divvoirplus
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 10%;
+    height: 50px;
+    color: #000000;
+    background-color: #D9D9D9;
+    border: #9D9D9D solid 3px;
+    border-radius: 10px;
+    font-family: KanitMedium;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#divvoirplus:hover
+{
+    border: #1b1b1b solid 3px;
+    background-color: #292929;
+    color: #D9D9D9;
+    opacity: 0.9;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+
+#article3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#alltextarticle3
+{
+    padding-bottom: 150px;
+    width: 28%;
+    height: auto;
+}
+
+@font-face {
+    font-family: KantumruyProBold;
+    src: url(font/KantumruyPro/static/KantumruyPro-Bold.ttf);
+}
+
+.titlearticle3
+{
+    text-align: center;
+    font-family: KantumruyProBold;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 87px;
+    margin-bottom: 40px
+}
+
+@font-face {
+    font-family: KantumruyProMedium;
+    src: url(font/KantumruyPro/static/KantumruyPro-Medium.ttf);
+}
+
+.textarticle3
+{
+    font-family: KantumruyProMedium;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 72px;
+    padding-top: -50px;
+}
+
+#maparticle3
+{
+    padding-top: 140px;
+    padding-bottom: 80px;
+    width: auto;
+    height: auto;
+}
+
+
+footer
+{
+    background-color: #494949;
+    width: 100%;
+    height: auto;
+}
+
+#textfooter
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+@font-face {
+    font-family: KanitBoldItalic;
+    src: url(font/Kanit/Kanit-BoldItalic.ttf);
+}
+
+.classquisommenousfooter
+{
+    font-family: KanitBoldItalic;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+@font-face {
+    font-family: KanitLight;
+    src: url(font/Kanit/Kanit-Light.ttf);
+}
+
+.textfooter
+{
+    font-family: KanitLight;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+a:hover
+{
+    color: #0d0d0d;
+}
+
+.classnousrejoindrefooter
+{
+    font-family: KanitBoldItalic;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.classbesoindaidefooter
+{
+    font-family: KanitBoldItalic;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+#divnouscontacterfooter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classnouscontacterfooter
+{
+    font-family: KanitBoldItalic;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+@font-face {
+    font-family: KanitBold;
+    src: url(font/Kanit/Kanit-Bold.ttf);
+}
+
+.classphonenumber
+{
+    font-family: KanitBold;
+    color: #2D74FF;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.textfootertax
+{
+    font-family: KanitLight;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+#logometamfooter
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
